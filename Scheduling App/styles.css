@@ -19,7 +19,7 @@
 .header-container{
   position: absolute;
   width: 100vw;
-  height: 10vw;
+  height: 9vw;
 
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -117,7 +117,7 @@
 .bottom-text{
   line-height: 20px;
   padding-top: 35px;
-  color: #808080
+  color: #828282;
 }
 
 .footer{
@@ -151,29 +151,29 @@
 
 /* FOR THE SEARCH PAGE  */
 .form{
-    width: 580px;
-    height: 300px;
-    justify-content: space-around;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+  width: 580px;
+  height: 125px;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 
-    font-family: 'Poligon', sans-serif;
-    font-size: 24px;
-    position: absolute;
-    top: 12vw;
-    left: 30vw;
+  font-family: 'Poligon', sans-serif;
+  font-size: 24px;
+  position: absolute;
+  top: 15.5vw;
+  left: 30vw;
 }
 
 .form-row{
-  margin: 20px;
+  margin: 10px;
   width: 500px;
 }
 
 .form-row input[type='text']{
   background-color: #FFFFFF;
   font-family: 'Poligon', sans-serif;
-  border: 1.25px solid #808080;
+  border: 1.25px solid #828282;
   border-radius: 3px;
   height: 105%;
   width: 70%;
@@ -184,7 +184,7 @@
 .caption{
   font-size: 14px;
   line-height: 20px;
-  padding-top: 35px;
-  color: #808080;
+  color: #828282;
   text-align: center;
+  left: 15vw;
 }
