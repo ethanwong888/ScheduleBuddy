@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 @font-face{
@@ -14,12 +15,17 @@
   src: url('Fonts/Poligon Family/Poligon Light.otf');
 }
 
+@media only screen and (max-width: 400px){
+
+}
+
 /* FOR THE HOME PAGE */
 
 .header-container{
   position: absolute;
+  justify-content: space-around;
   width: 100vw;
-  height: 9vw;
+  height: 19vh;
 
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -28,17 +34,17 @@
 }
 
 .header{
-  position: absolute;
-  width: 482px;
-  height: 110px;
-  left: 37vw;
-  top: 1vw;
+  position: relative;
+  width: 60vw;
+  height: 15.5vh;
+  left: 36vw;
+  top: 1vh;
 
   font-family: 'Poligon', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 47px;
+  font-weight: 400;
+  font-size: 9vmin;
+  line-height: 6vmax;
   display: flex;
   align-items: center;
   text-align: center;
@@ -51,32 +57,39 @@
 .search-button{
   color: #FFFFFF;
   background-color: #4485E7;
+  display: inline-block;
   font-family: 'Poligon-Light', sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 1.5vw;
+  line-height: 4vh;
+
+  padding: 4px;
   text-align: center;
-  width: 120px;
-  height: 45px;
+  vertical-align: middle;
+
+
+  width: 8.5vw;
+  height: 6.5vh;
   border: 2px solid #4485E7;
   border-radius: 5px;
 
-  position: relative;
+  position: absolute;
   left: 89vw;
-  top: 3vw;
+  top: 6vh;
 }
 
+
 .middle-container{
-  width: 1400px;
-  height: 500px;
+  width: 95vw;
+  height: 70vh;
   justify-content: space-around;
   padding: 20px;
   display: flex;
 
 
   position: absolute;
-  top: 12vw;
   left: 4vw;
+  top: 24vh;
 }
 
 .middle-text{
@@ -85,16 +98,17 @@
 }
 
 .head{
-  font-size: 36px;
-  line-height: 42px;
+  /*font-size: 2.5vw;*/
+  font-size: 5.5vmin;
+  line-height: 3vmax;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 1.75vmin;
 }
 
 .second{
-  font-size: 24px;
-  line-height: 35px;
-  padding-bottom: 35px;
+  font-size: 3.3vmin;
+  line-height: 2vmax;
+  padding-bottom: 1.85vmin;
 }
 
 .get-started-button{
@@ -102,29 +116,32 @@
   background-color: #4485E7;
   font-family: 'Poligon-Light', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.7vw;
+  line-height: 2.8vh;
   padding: 10px;
   text-align: center;
-  width: 200px;
-  height: 50px;
+  width: 15vw;
+  height: 6.5vh;
   border: 2px solid #4485E7;
   border-radius: 5px;
 
   position: relative;
-  left: 11vw;
+  right: -10vw;
 }
 
 .bottom-text{
-  line-height: 20px;
-  padding-top: 35px;
+  font-size: 2.7vmin;
+  line-height: 1.5vmax;
+  padding-top: 1.85vmin;
   color: #828282;
 }
 
 .footer{
   display: flex;
-  justify-content: space-around;
   font-family: 'Poligon', sans-serif;
-  font-size: 16px;
+  font-size: 2.5vmin;
+  line-height: 1vmax;
+  vertical-align: center;
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #4485E7;
@@ -132,7 +149,7 @@
 
   position: absolute;
   width: 100vw;
-  height: 3vw;
+  height: 6vh;
   bottom: 0;
 }
 
