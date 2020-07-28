@@ -116,7 +116,7 @@ html { font-size:100%; }
 
   position: absolute;
   left: 4vw;
-  top: 17.5vh;
+  top: 16vh;
 
   display: grid;
   align-items: center;
@@ -141,13 +141,13 @@ html { font-size:100%; }
   font-size: 5.5vmin;
   line-height: 3.3vmax;
   padding-top: 20px;
-  padding-bottom: 1.75vmin;
+  padding-bottom: 1.7vmin;
 }
 
 .second{
   font-size: 3.3vmin;
   line-height: 2.3vmax;
-  padding-bottom: 1.85vmin;
+  padding-bottom: 1.8vmin;
 }
 
 .get-started-button{
@@ -156,7 +156,7 @@ html { font-size:100%; }
   font-family: 'Poligon-Light', sans-serif;
   font-weight: bold;
   font-size: 2vw;
-  line-height: 2.15vh;
+  line-height: 2.05vh;
   padding: 10px;
   text-align: center;
   width: 15vw;
@@ -167,6 +167,7 @@ html { font-size:100%; }
   position: relative;
   right: -15.25vw;
 }
+
 
 @media (max-width: 547px) {
    .get-started-button{
@@ -184,7 +185,7 @@ html { font-size:100%; }
 .bottom-text{
   font-size: 2.7vmin;
   line-height: 1.9vmax;
-  padding-top: 1.85vmin;
+  padding-top: 1.8vmin;
   color: #828282;
 }
 
