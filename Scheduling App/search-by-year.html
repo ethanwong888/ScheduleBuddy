@@ -30,11 +30,17 @@
       <label for='major'>major: &ensp;&thinsp;&thinsp;&thinsp;&thinsp;</label>
       <input id='major-name' name='major-name' type='text'/>
     </div>
-    <div class='form-row'>
-      <label for='classes'>classes: &ensp;&thinsp;</label>
-      <input id='classes-name' name='classes-name' type='text'/>
+    <div class='year-dropdown'>
+      <label for='year'>&ensp;year:&ensp;&ensp;&ensp;&ensp;&thinsp;</label>
+      <select class='year' name='year'>
+        <option value='empty'></option>
+        <option value='1st'>1st</option>
+        <option value='2nd'>2nd</option>
+        <option value='3rd'>3rd</option>
+        <option value='4th'>4th</option>
+        <option value='other'>other</option>
+      </select>
     </div>
-    <p class="caption">* please use official subject names and separate <br> &ensp;&ensp;&ensp;classes by commas, e.g. "com sci 111, com sci 180"</p>
     <div class="submit-button">
       <p>submit</p>
     </div>

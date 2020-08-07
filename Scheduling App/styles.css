@@ -108,6 +108,54 @@ html { font-size:100%; }
   top: 6.2vh;
 }
 
+.upload-button{
+  color: #4485E7;
+  background-color: #FFFFFF;
+  display: inline-block;
+  font-family: 'Poligon-Light', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  line-height: 4vh;
+
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
+
+
+  width: 8.5vw;
+  height: 6.5vh;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 80vw;
+  top: 6.2vh;
+}
+
+.submit-button{
+  color: #FFFFFF;
+  background-color: #4485E7;
+  display: inline-block;
+  font-family: 'Poligon-Light', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  line-height: 4vh;
+
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
+
+
+  width: 8.5vw;
+  height: 6.5vh;
+  border: 2px solid #4485E7;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 27vw;
+  top: 30vh;
+}
+
 .middle-container{
   width: 95vw;
   height: 70vh;
@@ -242,6 +290,19 @@ html { font-size:100%; }
   width: 30vw;
 }
 
+.year{
+  width: 120px;
+  height: 30px;
+  border: 1.5px solid #828282;
+  font-size: 18px;
+  font-family: 'Poligon', sans-serif;
+  color: #000;
+  background-color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
 @media (max-width: 1024px) {
    .form-row{
      margin: 1.8vh;
@@ -253,7 +314,7 @@ html { font-size:100%; }
   background-color: #FFFFFF;
   font-family: 'Poligon', sans-serif;
   border: 1.25px solid #828282;
-  border-radius: 3px;
+  border-radius: 5px;
   height: 105%;
   width: 70%;
   padding: 7px;
@@ -266,4 +327,21 @@ html { font-size:100%; }
   color: #828282;
   text-align: center;
   left: 20vw;
+}
+
+
+
+/*FOR OPTIONS.HTML*/
+.top-text-container{
+  position: absolute;
+  width: 30vw;
+  height: 7vw;
+  border: 5px #000;
+  left: 12vw;
+  top: 25vh;
+  color: #000;
+}
+.top-text{
+  font-family: 'Poligon', sans-serif;
+  font-size: 4vmin;
 }
